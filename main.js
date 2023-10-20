@@ -56,9 +56,15 @@ return (typeof(number))
 // Conditional Statements:
 
 // Problem: Create a function that takes an age as an argument and returns a message based on whether the person is a child, a teenager, an adult, or a senior citizen.
-
-// Problem: Write a function that checks if a given number is even or odd and returns an appropriate message.
-
+function ageOfPerson(age) {         if (age<12 && age>0) { 
+                return 'child'         }    
+                     else if (age>12 && age<20) {             return 'teenager'         } 
+                             else if (age>19 && age<36) {             return 'adult'         } 
+                                     else return 'senior citizen'     }
+                                     
+                                      undefined ageOfPerson(2) 'child' ageOfPerson(15) 'teenager' ageOfPerson(25) 'adult' ageOfPerson(40) 'senior citizen'
+// Problem: Write a functin that checks if a given nu9mber is even or odd and returns an appropriate message.
+function 
 // Problem: Create a function that simulates a basic login system. It takes a username and password as arguments and returns true if  "Login successful" if they match, or false if  "Login failed" if they don't.
 
 // Problem: Write a function that calculates the grade for a given test score. The function should return "A," "B," "C," "D," or "F" based on the score.
